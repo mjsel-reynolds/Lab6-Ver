@@ -2,8 +2,6 @@
 # This is my github repository
 # My main function and encoder function are below
 
-# Feel free to add the decoder function where you see fit
-
 def print_menu():
 	# This function prints the menu
 	print('Menu\n'
