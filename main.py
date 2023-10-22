@@ -10,10 +10,10 @@ def print_menu():
 		  '2. Decode\n'
 		  '3. Quit\n')
 
-def encoder(user_string):
+def encode(user_string):
 	# Take in 8-digit password in string format with only integers
-	# Stores encoded password to new variable with each digit
-	# shifted up by 3 numbers
+	# Each digit is shifted up by 3 numbers
+	# Stores encoded password to new variable
 
 	# Create empty string to store new password
 	temp_password = ''
@@ -38,7 +38,7 @@ def encoder(user_string):
 
 
 # Partner: You may write the decoder function here
-def decoder():
+def decode():
 	pass
 
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 			# Prompt user for password
 			user_password = input('Please enter your password to encode:')
 			# Pass into encoder function
-			new_password = encoder(user_password)
+			new_password = encode(user_password)
 			print('Your password has been encoded and stored!')
 		elif user_option == 2:
 			pass
