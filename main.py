@@ -1,6 +1,4 @@
 # Mariyah Reynolds
-# This is my github repository
-# My main function and encoder function are below
 
 def print_menu():
 	# This function prints the menu
